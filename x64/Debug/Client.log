@@ -1,0 +1,480 @@
+﻿  auth.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(79,1): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(79,1): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(90,1): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(90,1): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(172,62): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(172,62): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(241): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(188,62): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(188,62): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(30,91): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(30,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(31,52): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(31,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(32,51): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(32,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(33,44): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(33,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(34,48): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(34,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(89,91): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(89,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(90,52): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(90,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(91,51): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(91,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(92,44): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(92,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(93,43): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(93,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(155,91): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(155,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(156,52): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(156,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(157,51): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(157,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(158,44): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(158,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(159,47): error C2664: 'void c_lw_httpd::add_field(const PCHAR,int)': cannot convert argument 1 from 'const char [2]' to 'const PCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\auth.cpp(159,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.hpp(39,8): message : see declaration of 'c_lw_httpd::add_field'
+  CMap.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\CMap.cpp(566,50): warning C4311: 'reinterpret_cast': pointer truncation from 'LPCWSTR' to 'DWORD'
+C:\Users\pc\Desktop\RU\client\AtlasClient\CMap.cpp(566,50): warning C4302: 'reinterpret_cast': truncation from 'LPCWSTR' to 'DWORD'
+C:\Users\pc\Desktop\RU\client\AtlasClient\CMap.cpp(632,22): warning C4018: '<': signed/unsigned mismatch
+  comm.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\stdafx.h(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.cpp(7,41): error C2664: 'HMODULE LoadLibraryA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [10]' to 'LPCSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.cpp(7,29): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(657,1): message : see declaration of 'LoadLibraryA'
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.cpp(8,14): error C3536: 'module': cannot be used before it is initialized
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.cpp(13,165): error C2664: 'FARPROC GetProcAddress(HMODULE,LPCSTR)': cannot convert argument 1 from 'int' to 'HMODULE'
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.cpp(13,102): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(342,1): message : see declaration of 'GetProcAddress'
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.cpp(45,8): error C2664: 'int _wcsicmp(const wchar_t *,const wchar_t *)': cannot convert argument 1 from 'CHAR [260]' to 'const wchar_t *'
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.cpp(45,23): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h(304,37): message : see declaration of '_wcsicmp'
+  crypto.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(79,1): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(79,1): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(90,1): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(90,1): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(172,62): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(172,62): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(241): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(188,62): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(188,62): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\pc\Desktop\RU\client\AtlasClient\crypto.cpp(41,27): warning C4267: 'initializing': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\crypto.cpp(42,29): warning C4267: 'initializing': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\crypto.cpp(77,104): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\pc\Desktop\RU\client\AtlasClient\crypto.cpp(88,104): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\pc\Desktop\RU\client\AtlasClient\crypto.cpp(99,104): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  hijack.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\stdafx.h(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(14,39): error C2664: 'HMODULE LoadLibraryA(LPCSTR)': cannot convert argument 1 from 'LPCWSTR' to 'LPCSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(14,29): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(657,1): message : see declaration of 'LoadLibraryA'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(15,14): error C3536: 'module': cannot be used before it is initialized
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(20,78): error C2664: 'FARPROC GetProcAddress(HMODULE,LPCSTR)': cannot convert argument 1 from 'int' to 'HMODULE'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(20,58): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(342,1): message : see declaration of 'GetProcAddress'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(21,16): error C3536: 'function': cannot be used before it is initialized
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(26,86): warning C4312: 'reinterpret_cast': conversion from 'int' to 'PBYTE' of greater size
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(26,87): error C2113: '-': pointer can only be subtracted from another pointer
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(29,60): error C3536: 'remoteFunction': cannot be used before it is initialized
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(29,60): error C2440: '=': cannot convert from 'int' to 'PVOID'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(29,46): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(30,63): error C2664: 'NTSTATUS Comm::Process::Read(PVOID,PVOID,DWORD)': cannot convert argument 2 from 'int' to 'PVOID'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(30,32): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.h(82,12): message : see declaration of 'Comm::Process::Read'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(31,81): error C2664: 'NTSTATUS Comm::Process::Read(PVOID,PVOID,DWORD)': cannot convert argument 2 from 'size_t' to 'PVOID'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(31,47): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.h(82,12): message : see declaration of 'Comm::Process::Read'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(46,64): error C2664: 'NTSTATUS Comm::Process::Protect(PVOID,DWORD,PDWORD)': cannot convert argument 1 from 'int' to 'PVOID'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(46,19): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.h(83,12): message : see declaration of 'Comm::Process::Protect'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(48,51): error C2664: 'NTSTATUS Comm::Process::Write(PVOID,PVOID,DWORD)': cannot convert argument 1 from 'int' to 'PVOID'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(48,17): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.h(81,12): message : see declaration of 'Comm::Process::Write'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(52,7): error C2664: 'NTSTATUS Comm::Process::Read(PVOID,PVOID,DWORD)': cannot convert argument 2 from 'int' to 'PVOID'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(52,52): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.h(82,12): message : see declaration of 'Comm::Process::Read'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(53,5): warning C4477: 'fprintf' : format string '%p' requires an argument of type 'void *', but variadic argument 3 has type 'int'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(53,5): warning C4313: 'fprintf': '%p' in format string conflicts with argument 3 of type 'int'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(62,57): error C2664: 'NTSTATUS Comm::Process::Protect(PVOID,DWORD,PDWORD)': cannot convert argument 1 from 'int' to 'PVOID'
+C:\Users\pc\Desktop\RU\client\AtlasClient\hijack.cpp(62,19): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\comm.h(83,12): message : see declaration of 'Comm::Process::Protect'
+  hwid.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(79,1): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(79,1): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(90,1): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(90,1): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(172,62): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(172,62): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(241): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(188,62): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(188,62): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+  The contents of <filesystem> are available only with C++17 or later.
+  intel_driver.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(88,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(172,4): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(221,4): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(85,1): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(85,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(131,39): warning C4552: '<<': result of expression not used
+  kdmapper.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(88,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(172,4): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(221,4): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(85,1): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(85,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(131,39): warning C4552: '<<': result of expression not used
+  kdmapper2.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(88,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(172,4): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(221,4): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(85,1): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(85,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(131,39): warning C4552: '<<': result of expression not used
+  lw_http.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(79,1): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(79,1): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(90,1): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(90,1): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(172,62): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(172,62): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(241): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(188,62): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(188,62): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(81,55): warning C4267: '=': conversion from 'size_t' to 'BYTE', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(100,54): warning C4267: '=': conversion from 'size_t' to 'BYTE', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(248,1): error C2975: 'Cs': invalid template argument for 'jm::detail::tstring_', expected compile-time constant expression
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(89): message : see declaration of 'Cs'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(181): message : see reference to function template instantiation 'auto jm::make_xorstr<c_lw_httpd::fmt_out::<lambda_5ed472e1296bf3dd5c31b00c7915ffc4>,0,1,2,3,4,5,6,0,1>(Tstr,std::integer_sequence<size_t,0,1,2,3,4,5,6>,std::integer_sequence<size_t,0,1>) noexcept' being compiled
+          with
+          [
+              Tstr=c_lw_httpd::fmt_out::<lambda_5ed472e1296bf3dd5c31b00c7915ffc4>
+          ]
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(181,73): error C2665: 'sprintf_s': none of the 2 overloads could convert all the argument types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1815,41): message : could be 'int sprintf_s(char *const ,const size_t,const char *const ,...)'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1835,1): message : or       'int sprintf_s<2048>(char (&)[2048],const char *,...) throw()'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(181,73): message : while trying to match the argument list '(char [2048], int *, const PCHAR, const _Elem *)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(208,31): warning C4267: 'return': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(221,22): error C2440: '=': cannot convert from 'const wchar_t [1]' to 'PWCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(221,19): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(222,39): error C2440: '=': cannot convert from 'const wchar_t [13]' to 'PWCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(222,22): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(389,68): error C2664: 'bool c_lw_http::send_request(std::wstring,std::vector<BYTE,std::allocator<BYTE>> &,PWCHAR,LPVOID,DWORD)': cannot convert argument 3 from 'const wchar_t [4]' to 'PWCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(389,53): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(255,17): message : see declaration of 'c_lw_http::send_request'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(389,22): error C2789: 'b_result': an object of const-qualified type must be initialized
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(389): message : see declaration of 'b_result'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(399,56): error C2664: 'bool c_lw_http::send_request(std::wstring,std::vector<BYTE,std::allocator<BYTE>> &,PWCHAR,LPVOID,DWORD)': cannot convert argument 3 from 'const wchar_t [4]' to 'PWCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(399,38): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(255,17): message : see declaration of 'c_lw_http::send_request'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(406,17): error C2664: 'bool c_lw_http::send_request(std::wstring,std::vector<BYTE,std::allocator<BYTE>> &,PWCHAR,LPVOID,DWORD)': cannot convert argument 3 from 'const wchar_t [5]' to 'PWCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(406,45): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(255,17): message : see declaration of 'c_lw_http::send_request'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(418,9): error C2664: 'bool c_lw_http::send_request(std::wstring,std::vector<BYTE,std::allocator<BYTE>> &,PWCHAR,LPVOID,DWORD)': cannot convert argument 3 from 'const wchar_t [5]' to 'PWCHAR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(418,37): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\pc\Desktop\RU\client\AtlasClient\lw_http.cpp(255,17): message : see declaration of 'c_lw_http::send_request'
+  main.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(79,1): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(79,1): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(90,1): error C3533: a parameter cannot have a type that contains 'auto'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(90,1): message : 'auto' in non-type template parameters requires at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(172,62): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(172,62): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_256(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(241): message : see reference to class template instantiation 'jm::xor_string<T,Keys...>' being compiled
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(188,62): error C7518: fold expressions require at least '/std:c++17'
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(188,62): message : This diagnostic occurred in the compiler generated function 'void jm::xor_string<T,Keys...>::_crypt_128(const uint64_t *,std::integer_sequence<size_t,Idxs...>) noexcept'
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\atlmfc\include\atlcore.h(659,2): warning C4191: 'reinterpret_cast': unsafe conversion from 'FARPROC' to 'BOOL (__cdecl *)(DWORD)'
+          Calling this function through the result pointer may cause your program to fail
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(88,3): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(172,4): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.hpp(221,4): warning C4984: 'if constexpr' is a C++17 language extension
+C:\Users\pc\Desktop\RU\client\AtlasClient\stdafx.h(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+C:\Users\pc\Desktop\RU\client\AtlasClient\EAC_Driver.hpp(194,72): warning C4244: '=': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(111,1): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 2 has type 'LPCSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(111,1): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(111,1): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(111,1): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(111,1): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(111,1): message : placeholders and their parameters expect 2 variadic arguments, but 4 were provided
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(131,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 2 has type 'LPCSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(131,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(131,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(131,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(131,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 3 has type 'LPCSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(131,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(131,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(131,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(131,77): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(131,77): message : placeholders and their parameters expect 3 variadic arguments, but 5 were provided
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(134,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 2 has type 'LPCSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(134,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(134,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(134,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(134,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 3 has type 'LPCSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(134,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(134,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(134,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(152,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 2 has type 'LPCSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(152,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(152,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(152,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(152,65): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(152,65): message : placeholders and their parameters expect 2 variadic arguments, but 4 were provided
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(155,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 2 has type 'LPCSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(155,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(155,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(155,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(168,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(168,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(168,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(168,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(174,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(174,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(174,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(174,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(180,36): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(181,29): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(182,30): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(183,35): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(184,35): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(185,33): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(186,36): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(187,29): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(188,30): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(189,35): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(191,33): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(196,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(196,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(196,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(196,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(203,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(203,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(203,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(203,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(211,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(211,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(211,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(211,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(228,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(228,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(228,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(228,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(228,53): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(228,53): message : placeholders and their parameters expect 1 variadic arguments, but 3 were provided
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(231,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(231,16): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(231,16): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(231,16): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(231,74): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(231,74): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(515,1): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 2 has type 'LPCSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(515,1): message : consider using '%hs' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(515,1): message : consider using '%s' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(515,1): message : consider using '%Ts' in the format string
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(248,1): error C2975: 'Cs': invalid template argument for 'jm::detail::tstring_', expected compile-time constant expression
+C:\Users\pc\Desktop\RU\client\AtlasClient\xor.h(89): message : see declaration of 'Cs'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(564): message : see reference to function template instantiation 'auto jm::make_xorstr<clean::<lambda_f8952dea1fc0be34327f2af357df6676>,0,1,2,3,4,5,6,7,8,9,10,11,12,13,0,1>(Tstr,std::integer_sequence<size_t,0,1,2,3,4,5,6,7,8,9,10,11,12,13>,std::integer_sequence<size_t,0,1>) noexcept' being compiled
+          with
+          [
+              Tstr=clean::<lambda_f8952dea1fc0be34327f2af357df6676>
+          ]
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(564,46): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(564,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(566,54): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(566,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(568,63): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(568,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(570,49): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(570,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(572,53): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(572,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(574,59): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(574,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(576,49): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(576,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(578,54): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(578,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(580,49): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(580,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(582,66): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(582,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(584,68): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(584,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(586,65): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(586,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(588,76): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(588,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(590,80): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(590,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(592,77): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(592,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(594,81): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(594,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(596,78): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(596,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(598,76): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(598,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(600,73): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(600,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(602,64): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(602,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(604,67): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(604,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(606,69): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(606,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(608,117): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(608,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(610,126): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(610,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(612,61): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(612,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(614,45): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(614,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(616,45): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(616,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(618,60): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(618,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(620,63): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(620,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(622,57): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(622,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(624,48): error C2664: 'void ForceDeleteFile(LPSTR)': cannot convert argument 1 from 'int *' to 'LPSTR'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(624,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(159,6): message : see declaration of 'ForceDeleteFile'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(785,55): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(785,33): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(786,71): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(786,49): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(829,164): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(829,142): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(829,102): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(829,55): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(833,20): error C2664: 'int nk_group_begin(nk_context *,const char *,nk_flags)': cannot convert argument 2 from 'int *' to 'const char *'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(833,41): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\nuklear\nuklear.h(2663,12): message : see declaration of 'nk_group_begin'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(841,108): error C2664: 'void nk_label_colored(nk_context *,const char *,nk_flags,nk_color)': cannot convert argument 2 from 'int *' to 'const char *'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(841,43): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\nuklear\nuklear.h(3090,13): message : see declaration of 'nk_label_colored'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(845,68): error C2664: 'void nk_label(nk_context *,const char *,nk_flags)': cannot convert argument 2 from 'int *' to 'const char *'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(845,35): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\nuklear\nuklear.h(3089,13): message : see declaration of 'nk_label'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(852,24): error C2664: 'int nk_button_label(nk_context *,const char *)': cannot convert argument 2 from 'int *' to 'const char *'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(852,46): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\nuklear\nuklear.h(3118,12): message : see declaration of 'nk_button_label'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(909,164): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(909,142): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(909,102): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(909,55): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(913,20): error C2664: 'int nk_group_begin(nk_context *,const char *,nk_flags)': cannot convert argument 2 from 'int *' to 'const char *'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(913,41): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\nuklear\nuklear.h(2663,12): message : see declaration of 'nk_group_begin'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(917,104): error C2664: 'void nk_label_colored(nk_context *,const char *,nk_flags,nk_color)': cannot convert argument 2 from 'int *' to 'const char *'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(917,43): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\nuklear\nuklear.h(3090,13): message : see declaration of 'nk_label_colored'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(919,72): error C2664: 'void nk_label(nk_context *,const char *,nk_flags)': cannot convert argument 2 from 'int *' to 'const char *'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(919,35): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\nuklear\nuklear.h(3089,13): message : see declaration of 'nk_label'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(921,24): error C2664: 'int nk_button_label(nk_context *,const char *)': cannot convert argument 2 from 'int *' to 'const char *'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(921,46): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\nuklear\nuklear.h(3118,12): message : see declaration of 'nk_button_label'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(942,24): error C2664: 'int nk_button_label(nk_context *,const char *)': cannot convert argument 2 from 'int *' to 'const char *'
+C:\Users\pc\Desktop\RU\client\AtlasClient\main.cpp(942,46): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\pc\Desktop\RU\client\AtlasClient\nuklear\nuklear.h(3118,12): message : see declaration of 'nk_button_label'
+  map.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\stdafx.h(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\pc\Desktop\RU\client\AtlasClient\map.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  md5.cpp
+  md5wrapper.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\md5wrapper.cpp(36,16): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\md5wrapper.cpp(115,44): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  MemEx.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\MemEx.cpp(1040,15): warning C4244: 'initializing': conversion from 'uintptr_t' to 'uint32_t', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\MemEx.cpp(1114,55): warning C4244: '=': conversion from 'uintptr_t' to 'uint32_t', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\MemEx.cpp(1115,57): warning C4244: '=': conversion from 'uintptr_t' to 'uint32_t', possible loss of data
+  nuklear_d3d11.cpp
+C:\Users\pc\Desktop\RU\client\AtlasClient\nuklear\nuklear_d3d11.cpp(291,64): warning C4244: 'argument': conversion from 'SIZE_T' to 'int', possible loss of data
+C:\Users\pc\Desktop\RU\client\AtlasClient\nuklear\nuklear_d3d11.cpp(295,51): warning C4244: 'argument': conversion from 'SIZE_T' to 'int', possible loss of data
+  portable_executable.cpp
+  print.cpp
+  service.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\pc\Desktop\RU\client\AtlasClient\service.cpp(5,39): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\pc\Desktop\RU\client\AtlasClient\service.cpp(5,51): error C2039: 'path': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\string(24): message : see declaration of 'std'
+C:\Users\pc\Desktop\RU\client\AtlasClient\service.cpp(5,55): error C3861: 'path': identifier not found
+  utils.cpp
+  Generating Code...
+C:\Users\pc\Desktop\RU\client\AtlasClient\intel_driver.cpp(167): warning C4715: 'intel_driver::WriteToReadOnlyMemory': not all control paths return a value
