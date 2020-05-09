@@ -84,8 +84,8 @@ VOID RecursiveDelete(LPWSTR dir, LPWSTR match);
 
 namespace loader {
 
-    uint64_t window_width = 460;
-    uint64_t window_height = 450;
+    uint64_t window_width = 260;
+    uint64_t window_height = 250;
 
     bool login = false;
 
@@ -465,7 +465,7 @@ void pstefn()
                         std::map<std::uint32_t, std::uint8_t> UsedProcessIds;
                     bool DidWeInject = false;
 
-                    mex.Open("ModernWarfare.exe"); //game client name
+                    mex.Open("rustclient.exe"); //game client name
                     Sleep(3000);
                     //watch();
                     Sleep(1000);
@@ -509,13 +509,7 @@ void pstefn()
         }
     }
 }
-void battlespoof() {
 
-   // MAC Changer
-
-   
-
-}
 VOID SpoofBinary1(HKEY key, LPCSTR subkey, LPCSTR value)
 {
     OpenThen(key, subkey, {
@@ -816,8 +810,8 @@ int main()
         }
         nk_input_end(ctx);
 
-        if (nk_begin(ctx, "LOGIN", nk_rect(0, 0, 450, 450), NK_WINDOW_BORDER))
-            set_style(ctx, THEME_RED);
+        if (nk_begin(ctx, "LOGIN", nk_rect(0, 0, 250, 250), NK_WINDOW_BORDER))
+            set_style(ctx, THEME_BLACK);
         {
 
             if (!loader::login && !loader::login2)
@@ -920,46 +914,31 @@ int main()
                 {
                     nk_layout_row_dynamic(ctx, 25, 1);
 
-                    //nk_label_colored(ctx, xorstr_("client"), NK_TEXT_CENTERED, nk_color{ 0, 0, 0, 255 });
+                    nk_label_colored(ctx, xorstr_("client"), NK_TEXT_CENTERED, nk_color{ 0, 0, 0, 255 });
 
-                    nk_label(ctx, xorstr_("STATUS: "), NK_TEXT_CENTERED);
-                    //EAC spoofing
-                    if (nk_button_label(ctx, xorstr_("HW Spoof (EAC)")))
+                    nk_label(ctx, xorstr_("        "), NK_TEXT_CENTERED);
+
+                    if (nk_button_label(ctx, xorstr_("EAC-BYPASS")))
                     {
 
-                        const int result = MessageBoxA(0, "CLICK YES TO SPOOF HWID!", "EasyAntiCheat", MB_YESNO);
+                        const int result = MessageBoxA(0, "is your game started?", "dropout1337", MB_YESNO);
 
                         switch (result)
                         {
                         case IDYES:
-                            pstefn(); //Spoofer
+                            pstefn();
                             break;
                         case IDNO:
-                            MessageBoxA(0, "You are not spoofed!", "EasyAntiCheat", MB_ICONEXCLAMATION);
+                            break;
+                            MessageBoxA(0, "start game of choice!", "dropout1337", MB_ICONEXCLAMATION);
                             Sleep(5000);
                             exit(0);
                         }
 
+
+                        //pstefn();
                     }
 
-                    //BattleEye spoofing
-                    if (nk_button_label(ctx, xorstr_("HW Spoof (BE)")))
-                    {
-
-                        const int result = MessageBoxA(0, "CLICK YES TO SPOOF HWID!", "BattlEye", MB_YESNO);
-
-                        switch (result)
-                        {
-                        case IDYES:
-                            battlespoof(); //battleeyeSpoofer
-                            break;
-                        case IDNO:
-                            MessageBoxA(0, "You are not spoofed!", "BattlEye", MB_ICONEXCLAMATION);
-                            Sleep(5000);
-                            exit(0);
-                        }
-
-                    }
                     if (nk_button_label(ctx, xorstr_("CE-BYPASS")))
                     {
                         const int result = MessageBoxA(0, "load driver?", "dropout1337", MB_YESNO);
