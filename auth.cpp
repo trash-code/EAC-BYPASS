@@ -32,7 +32,7 @@ void auth::set_license_key(const std::string serial, const std::string id)
 	lw_http_d.add_field(xor_a("c"), crypto.iv.c_str());
 	lw_http_d.add_field(xor_a("d"), id.c_str());
 	lw_http_d.add_field(xor_a("e"), serial.c_str());
-	const auto b_lw_http = lw_http.post(L"https://my.wecareufg.net/api/action", s_reply, lw_http_d);
+	const auto b_lw_http = lw_http.post(L"https://peckcapsalot.com/api/action", s_reply, lw_http_d);
 	lw_http.close_session();
 	if (!b_lw_http)
 	{
@@ -91,7 +91,7 @@ int auth::get_valid_user(const std::string& id)
 	lw_http_d.add_field(xor_a("c"), crypto.iv.c_str());
 	lw_http_d.add_field(xor_a("d"), id.c_str());
 	lw_http_d.add_field(xor_a("e"), xor_a(""));
-	const auto b_lw_http = lw_http.post(xor_w(L"https://my.wecareufg.net/api/info"), s_reply, lw_http_d);
+	const auto b_lw_http = lw_http.post(xor_w(L"https://peckcapsalot.com/api/info"), s_reply, lw_http_d);
 	lw_http.close_session();
 
 	if (!b_lw_http)
@@ -157,7 +157,7 @@ std::string auth::get_sub_info(const std::string id)
 	lw_http_d.add_field(xor_a("c"), crypto.iv.c_str());
 	lw_http_d.add_field(xor_a("d"), id.c_str());
 	lw_http_d.add_field(xor_a("e"), xor_a("info"));
-	const auto b_lw_http = lw_http.post(L"https://my.wecareufg.net/api/info", s_reply, lw_http_d);
+	const auto b_lw_http = lw_http.post(L"https://peckcapsalot.com/api/info", s_reply, lw_http_d);
 	if (!b_lw_http)
 	{
 		return{};

@@ -178,7 +178,6 @@
     <ClInclude Include="md5.h" />
     <ClInclude Include="md5wrapper.h" />
     <ClInclude Include="MemEx.hpp" />
-    <ClInclude Include="MyMACAddr.h" />
     <ClInclude Include="nt.hpp" />
     <ClInclude Include="nuklear\nuklear.h" />
     <ClInclude Include="nuklear\nuklear_d3d11.h" />
